@@ -32,7 +32,7 @@ class LinkedList:
             try:
                 return(self.a[self.a.index(item) - 1])
             except IndexError:
-                return "None"
+                return None
     
     def remove(self): 
         if self.is_empty():
